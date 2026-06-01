@@ -1,0 +1,18 @@
+package main
+
+import "fmt"
+
+func PrintBanner() {
+	fmt.Println(`
+██████╗ ██╗   ██╗███╗   ██╗████████╗██╗███╗   ███╗
+██╔══██╗██║   ██║████╗  ██║╚══██╔══╝██║████╗ ████║
+██████╔╝██║   ██║██╔██╗ ██║   ██║   ██║██╔████╔██║
+██╔══██╗██║   ██║██║╚██╗██║   ██║   ██║██║╚██╔╝██║
+██║  ██║╚██████╔╝██║ ╚████║   ██║   ██║██║ ╚═╝ ██║
+╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚═╝╚═╝     ╚═╝
+
+RunxGuard
+Linux Behavioral Detection Platform
+MITRE ATT&CK Mapped Telemetry + Real-Time Threat Detection
+`)
+}

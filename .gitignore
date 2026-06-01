@@ -1,0 +1,23 @@
+events.log
+baseline.json
+runtimeguard_baseline.json
+runtimeguard.json
+testdir//build
+*.log
+*.out
+config/baseline.json
+.DS_Store# binaries
+runtimeguard
+*.exe
+
+# archives
+*.tar.gz
+
+# Go build artifacts
+bin/
+dist/
+
+# test data
+testdir/
+testrepo/
+*.tar.gz.1
